@@ -37,7 +37,7 @@ GOOS=linux GOARCH=amd64 go build
 mkdir file-organizer_v1.0.0_linux_amd64
 cp LICENSE README.md file-organizer_v1.0.0_linux_amd64/
 mv file-organizer file-organizer_v1.0.0_linux_amd64/
-tar zxfv file-organizer_v1.0.0_linux_amd64/
+tar cvfz file-organizer_v1.0.0_linux_amd64.tar.gz file-organizer_v1.0.0_linux_amd64/
 ```
 
 ### Windows
@@ -54,7 +54,7 @@ zip -r file-organizer_v1.0.0_windows_amd64.zip file-organizer_v1.0.0_windows_amd
 
 ```sh
 GOOS=darwin GOARCH=amd64 go build
-mkdir file-organizer_v1.0.0_windows_amd64
+mkdir file-organizer_v1.0.0_darwin_amd64
 cp LICENSE README.md file-organizer_v1.0.0_darwin_amd64/
 mv file-organizer file-organizer_v1.0.0_darwin_amd64/
 zip -r file-organizer_v1.0.0_darwin_amd64.zip file-organizer_v1.0.0_darwin_amd64/
