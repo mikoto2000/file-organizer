@@ -1,6 +1,6 @@
 # file-organizer
 
-# Usage:
+## Usage:
 
 ```sh
 Usage: file-organizer [options...] TARGET_DIRS...
@@ -16,7 +16,7 @@ Usage: file-organizer [options...] TARGET_DIRS...
         verbose mode flag
 ```
 
-# Install:
+## Install:
 
 `go install` コマンドでインストールするか、 Rlease からバイナリをダウンロードしてください。
 
@@ -24,7 +24,7 @@ Usage: file-organizer [options...] TARGET_DIRS...
 go install github.com/mikoto2000/file-organizer@latest
 ```
 
-# License:
+## License:
 
 Copyright (C) 2022 mikoto2000
 
@@ -33,7 +33,7 @@ This software is released under the MIT License, see LICENSE
 このソフトウェアは MIT ライセンスの下で公開されています。 LICENSE を参照してください。
 
 
-# Author:
+## Author:
 
 mikoto2000 <mikoto2000@gmail.com>
 
