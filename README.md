@@ -28,6 +28,38 @@ Usage: file-organizer [options...] TARGET_DIRS...
 go install github.com/mikoto2000/file-organizer@latest
 ```
 
+## Release
+
+### Linux
+
+```sh
+GOOS=linux GOARCH=amd64 go build
+mkdir file-organizer_v1.0.0_linux_amd64
+cp LICENSE README.md file-organizer_v1.0.0_linux_amd64/
+mv file-organizer file-organizer_v1.0.0_linux_amd64/
+tar zxfv file-organizer_v1.0.0_linux_amd64/
+```
+
+### Windows
+
+```sh
+GOOS=windows GOARCH=amd64 go build
+mkdir file-organizer_v1.0.0_windows_amd64
+cp LICENSE README.md file-organizer_v1.0.0_windows_amd64/
+mv file-organizer.exe file-organizer_v1.0.0_windows_amd64/
+zip -r file-organizer_v1.0.0_windows_amd64.zip file-organizer_v1.0.0_windows_amd64/
+```
+
+### Darwin
+
+```sh
+GOOS=darwin GOARCH=amd64 go build
+mkdir file-organizer_v1.0.0_windows_amd64
+cp LICENSE README.md file-organizer_v1.0.0_darwin_amd64/
+mv file-organizer file-organizer_v1.0.0_darwin_amd64/
+zip -r file-organizer_v1.0.0_darwin_amd64.zip file-organizer_v1.0.0_darwin_amd64/
+```
+
 ## License:
 
 Copyright (C) 2022 mikoto2000
