@@ -1,5 +1,9 @@
 # file-organizer
 
+指定したディレクトリ内のファイルを、ファイル名に対応したサブディレクトリへ移動します。
+
+![file-organizer_002](https://user-images.githubusercontent.com/345832/201456013-98ce1deb-a644-4d20-b22e-bb17f895cc94.gif)
+
 ## Usage:
 
 ```sh
